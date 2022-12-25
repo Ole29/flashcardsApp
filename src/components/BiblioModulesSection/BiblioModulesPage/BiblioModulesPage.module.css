@@ -1,0 +1,129 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgba(0, 9, 95, 0.88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_section {
+    margin: 0px;
+    overflow: hidden;
+    min-height: 680px;
+    max-width: 1200px;
+}
+
+.icon {
+    width: 80px;
+    margin-right: 50px;
+    margin-left: 70px;
+    
+}
+
+.profile {
+    display: flex;
+    width: 470px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.user {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.52);
+}
+
+.modules {
+
+    font-weight: 600;
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    margin-left: 70px;
+}
+
+.butRegister {
+    width: 308px;
+    height: 52px;
+    background: rgba(2, 20, 179, 0.91);
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.modules {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.enter {
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.butRegister .active {
+    font-size: 21px;
+    text-decoration: none;
+    color: red;
+}
+
+@media (max-width: 767px ) {
+    .icon {
+        width: 60px;
+        margin-right: 30px;
+    }
+    
+    .profile {
+        width: 350px;
+    }
+
+    .user {
+        font-size: 18px;
+    }
+    
+    .name {
+        font-size: 17px;
+    }
+    .modules {
+        font-size: 24px;
+    }
+
+    .butRegister {
+        width: 258px;
+        height: 48px;
+        font-size: 14px;
+        margin-left: 70px;
+        margin-bottom: 50px;
+    }
+    .enter {
+        font-size:18px;
+        text-decoration: none;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+}

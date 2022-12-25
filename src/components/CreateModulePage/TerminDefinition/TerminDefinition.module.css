@@ -1,0 +1,115 @@
+.definition {
+    width: 1024px;
+    height: 189px;
+    background: rgba(117, 117, 132, 0.56);
+    border-radius: 17px;
+    margin-bottom: 70px;
+}
+
+
+.numberDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 0px 30px;
+    margin-bottom: 13px;
+}
+
+.basket {
+   height: 23px;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.hr {
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid white;
+    width: 1000px;
+}
+
+.termin {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+@media (max-width: 1199px ) {
+    .definition {
+        width: 90%;
+        height: 189px;
+    }
+
+    .hr {
+        width: 95%;
+    }
+
+    .termin {
+        padding: 10px 30px;
+    }
+
+}
+
+@media (max-width: 991px ) {
+    .definition {
+        width: 90%;
+    }
+
+    .hr {
+        width: 95%;
+    }
+
+    .termin {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 767px ) {
+    .definition {
+        width: 90%;
+        height: 175px;
+    }
+
+    .hr {
+        width: 95%;
+    }
+
+    .number {
+        font-size: 18px;
+    }
+
+    .basket {
+        height: 20px;
+    }
+}
+
+
+@media (max-width: 575px ) {
+
+    .definition {
+        width: 90%;
+        height: 270px;
+    }
+
+    .hr {
+        width: 95%;
+    }
+
+    .number {
+        font-size: 16px;
+    }
+
+    .basket {
+        height: 18px;
+    }
+
+    .termin {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+}

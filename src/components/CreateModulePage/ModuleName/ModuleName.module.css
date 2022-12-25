@@ -1,0 +1,79 @@
+.p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.input {
+    width: 45%;
+    height: 60px;
+
+    background: rgba(0, 10, 95, 0.081);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid white;
+    margin-bottom: 9px;
+    position: relative;
+    z-index: 20;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.input::placeholder {
+    font-weight: 600;
+    font-size: 18px;
+
+    color: rgba(255, 255, 255, 0.25);
+    padding-left: 7px;
+}
+
+
+.div {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1199px ) {
+    .input {
+        width: 500px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 991px ) {
+    
+    .input {
+        width: 410px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 767px ) {
+    .input {
+        width: 370px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 575px ) {
+
+    .input {
+        width: 260px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .p {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    
+}
